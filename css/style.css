@@ -1,0 +1,61 @@
+body {
+    background-image: url(../img/hotel-wallpaper.png);
+    font-family: verdana, sans-serif;
+    scroll-behavior: smooth;
+    position: relative;
+    z-index: -10;
+}
+
+
+h1 {
+    text-decoration: overline;
+    background-color: white;
+}
+/* Psuedo classes must be in this order - link, visited, hover, and active! -*/
+a:link {
+    color:rgb(240, 197, 179);
+}
+a:visited {
+    color:rgb(240, 197, 179);
+}
+a:hover {
+    color:rgb(204, 151, 165);
+}
+a:active {
+    color:rgb(155, 114, 125);
+}
+
+.one {
+    padding:300px;
+    background-image: url(../img/cat.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+    background-blend-mode:overlay;
+    overflow:scroll;
+}
+
+
+
+span {
+    color: transparent;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.two {
+    
+    text-decoration:underline;
+    background-color: white;
+}
+
+/* The CSS Box Model for leaving comments! */
+
+/*  
+    Margin: Empty space around my element
+    Border: Border/ stroke / around my element
+    Padding: Empty space WITH background around my element
+    
+    All of these ADD on top of the width and heighth 
+*/
